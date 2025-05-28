@@ -9,6 +9,6 @@ public class BillPughSolution {
     }
 
     public static BillPughSolution getInstance(){
-        return BillPughSolution.getInstance();
+        return BillPughSolutionHelper.singletonObj();
     }
 }
